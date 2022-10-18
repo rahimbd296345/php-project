@@ -39,7 +39,7 @@ echo "<p>Variable x outside function is: $x</p>";
 <html>
 <body>
 
-<?php
+<?php   
 $x = 5;
 $y = 10;
 
@@ -55,3 +55,21 @@ echo $y; // output the new value for variable $y
 </body>
 </html>
 
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$x = 5;
+$y = 10;
+
+function myTest() {
+  $GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
+} 
+
+myTest();
+echo $y;
+?>
+
+</body>
+</html>
