@@ -22,7 +22,7 @@ echo "<p>Variable x outside function is: $x</p>";
 <body>
 
 <?php
-function myTest() {
+function myest() {
   $x = 5; // local scope
   echo "<p>Variable x inside function is: $x</p>";
 } 
@@ -43,7 +43,7 @@ echo "<p>Variable x outside function is: $x</p>";
 $x = 5;
 $y = 10;
 
-function myTest() {
+function myeTest() {
   global $x, $y;
   $y = $x + $y;
 } 
@@ -63,13 +63,34 @@ echo $y; // output the new value for variable $y
 $x = 5;
 $y = 10;
 
-function myTest() {
+function mylTest() {
   $GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
 } 
 
 myTest();
 echo $y;
 ?>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+function mygTest() {
+  static $x = 0;
+  echo $x;
+  $x++;
+}
+
+myTest();
+echo "<br>";
+myTest();
+echo "<br>";
+myTest();
+?> 
 
 </body>
 </html>

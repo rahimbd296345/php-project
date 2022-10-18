@@ -2,14 +2,17 @@
 <html>
     <body>
         <?php
-        $x = 50;
-        $y = 10;
-
-        function myText(){
-            $GLOBALS['y'] = $GLOBALS['x']+$GLOBALS['y'];
+        function myTest(){
+          static $x = 0;
+          echo $x;
+          $x++;  
         }
-        myText();
-        echo $y;
+
+        myTest();
+        echo "<br>";
+        myTest();
+        echo "<br>";
+        myTest();
 
         ?>
     </body>
