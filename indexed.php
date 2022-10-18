@@ -2,16 +2,14 @@
 <html>
     <body>
         <?php
-        $x = 5;
+        $x = 50;
         $y = 10;
-        
-        function myText(){
-            global $x, $y;
-            $y = $x + $y;
-        }
 
-        myText(); // run function
-        echo $y; // output the new value for variable $y
+        function myText(){
+            $GLOBALS['y'] = $GLOBALS['x']+$GLOBALS['y'];
+        }
+        myText();
+        echo $y;
 
         ?>
     </body>
