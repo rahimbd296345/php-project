@@ -1,12 +1,8 @@
 <?php
 
 
-$x = "Hello world!";
-$y = 'Hellow world!';
-
-
-echo $x;
-echo $y;
+$x = 5985;
+var_dump($x);
 
 
 
