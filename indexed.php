@@ -1,10 +1,9 @@
 <?php
 
 
-$x = true;
-var_dump($x);
-$y = false;
-var_dump($y);
+$cars = array("Volvo", "BMW", "Toyota");
+var_dump($cars);
+
 
 
 
