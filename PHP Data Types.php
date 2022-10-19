@@ -33,6 +33,10 @@ var_dump($x);
 <?php  
 $x = 10.365;
 var_dump($x);
+$x = true;
+$y = false;
+var_dump($x);
+var_dump($y);
 ?>  
 
 </body>

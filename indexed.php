@@ -1,8 +1,10 @@
 <?php
 
 
-$x = 10.365;
+$x = true;
 var_dump($x);
+$y = false;
+var_dump($y);
 
 
 
