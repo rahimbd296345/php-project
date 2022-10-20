@@ -30,3 +30,15 @@ echo strrev("Hello world!");
  
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+echo strpos("Hello world!", "world");
+?> 
+ 
+</body>
+</html>

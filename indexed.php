@@ -1,7 +1,7 @@
 <?php
 
 
-echo strrev('Hello world!')
+echo strpos("Hello world1", "world");
 
 
 
