@@ -1,22 +1,10 @@
 <?php
 
 
-class Car{
-    public $color;
-    public $model;
-    public function __construct($color, $model){
-        $this->color = $color;
-        $this->model = $model;
-    }
-    public function message() {
-        return "My car is a " .$this->color. " " . $this->Model . "!";
-    }
-}
+$x = "Hellow World!";
+$x = null;
+var_dump($x);
 
-$myCar = new Car("black", "Volov");
-echo $myCar -> message();
-$myCar = new Car("red", "Toyota");
-echo $myCar -> message()
 
 
 
