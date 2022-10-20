@@ -3,18 +3,9 @@
 
 
 
-
-
-
-
-
-
-// Check if a numeric value is finite of infinete
-$x = 1.9e411;
-var_dump($x)
-
-
-
+// Invalid calculation vill return a NaN value
+$x = acos(8);
+var_dump($x);
 
 
 
