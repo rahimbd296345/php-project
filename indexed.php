@@ -1,9 +1,7 @@
 <?php
 
 
-/*echo strlen("Hello world!");*/
-
-echo strlen('Bangladesh');
+echo str_word_count("Hello world");
 
 
 
