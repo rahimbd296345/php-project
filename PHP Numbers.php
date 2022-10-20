@@ -29,3 +29,31 @@ var_dump(is_float($x));
 
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+// Check if a numeric value is finite or infinite 
+$x = 1.9e411;
+var_dump($x);
+?>  
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+// Invalid calculation will return a NaN value
+$x = acos(8);
+var_dump($x);
+?>  
+
+</body>
+</html>

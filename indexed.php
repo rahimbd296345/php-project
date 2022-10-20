@@ -1,8 +1,17 @@
 <?php
 
-// Check if the type of a variable is float
-$x = 10.365;
-var_dump(is_float($x));
+
+
+
+
+
+
+
+
+
+// Check if a numeric value is finite of infinete
+$x = 1.9e411;
+var_dump($x)
 
 
 
