@@ -1,7 +1,7 @@
 <?php
 
 
-echo strpos("Hello world1", "world");
+echo str_replace("world", "Dolly", "Hello world!");
 
 
 
