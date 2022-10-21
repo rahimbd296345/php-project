@@ -1,0 +1,26 @@
+{
+  "name": "esbootstrap5alpha",
+  "version": "1.0.0",
+  "description": "This is all in one boilarplate",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Abdur Rahim",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.0",
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.0.0-alpha5",
+    "jquery": "^3.5.1",
+    "php": "^1.0.2",
+    "popper.js": "^1.16.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.14.1"
+  }
+}
