@@ -54,13 +54,20 @@
     <link rel="stylesheet"
           href="assets/sass/responsive.css"/>
 </head>
-<body>
+<body class="bg-success text-center text-white">
+
+<!-- header start here -->
+<header>
+ <div class="container-fluid">
+      <div class="row">
+      <div class="col-lg-12 mb-5 mt-2">
+      <h1>welcome to shatotacorporation.com <span class="badge bg-secondary">Learning Php with W3schools.com</span></h1>
+      </div>
+      </div>
+ </div>
+
+</header>
+<!-- header start here -->
 
 
-<h1>Example heading <span class="badge bg-secondary">New</span></h1>
-<h2>Example heading <span class="badge bg-secondary">New</span></h2>
-<h3>Example heading <span class="badge bg-secondary">New</span></h3>
-<h4>Example heading <span class="badge bg-secondary">New</span></h4>
-<h5>Example heading <span class="badge bg-secondary">New</span></h5>
-<h6>Example heading <span class="badge bg-secondary">New</span></h6>
 
