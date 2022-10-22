@@ -1,5 +1,5 @@
 <?php
-      include("header.php");
+      include("include/header.php");
 ?>
 
 <?php 
@@ -11,7 +11,7 @@ echo "<br>";
 echo $y;
 ?>
 
-<h1 class="text-bg-dark">Good Morning...</h1>
+
 
 
 
@@ -19,5 +19,5 @@ echo $y;
 
 
 <?php
-      include("footer.php");
+      include("include/footer.php");
 ?>
