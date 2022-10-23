@@ -3,11 +3,9 @@
 ?>
 
 <?php 
-      echo "I'm about to learn PHP with vs code!<br>";
 
-// case-insensitive constant name
-define("GREETING", "Welcome to W3schools.com!", true);
-echo greeting;
+define("cars", ["Alfa Rinei", "BMW", "Toyota"]);
+echo cars[1]
 
 
 ?>
