@@ -60,3 +60,14 @@ echo(round(-4.60));
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+echo(rand());
+?>
+
+</body>
+</html>
