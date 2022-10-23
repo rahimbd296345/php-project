@@ -5,7 +5,7 @@
 <?php 
       echo "I'm about to learn PHP with vs code!<br>";
 
-   echo(rand());
+   echo(rand(10, 100));
 
 
 ?>
