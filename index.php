@@ -5,7 +5,9 @@
 <?php 
       echo "I'm about to learn PHP with vs code!<br>";
 
-   echo(rand(10, 100));
+      // case-sensitive constant name
+      define("GREETING", "Welcome to W3schools.com!");
+      echo GREETING
 
 
 ?>
