@@ -5,9 +5,9 @@
 <?php 
       echo "I'm about to learn PHP with vs code!<br>";
 
-      // case-sensitive constant name
-      define("GREETING", "Welcome to W3schools.com!");
-      echo GREETING
+// case-insensitive constant name
+define("GREETING", "Welcome to W3schools.com!", true);
+echo greeting;
 
 
 ?>
