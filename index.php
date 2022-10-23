@@ -3,7 +3,7 @@
 ?>
 
 <?php 
-echo "I'm about to learn PHP with vs co!<br>";
+echo "I'm about to learn PHP with vs code!<br>";
 ?>
 
 

@@ -54,7 +54,7 @@
     <link rel="stylesheet"
           href="assets/sass/responsive.css"/>
 </head>
-<body class="bg-success text-center text-white">
+<body class="bg-dark text-center text-white">
 
 <!-- header start here -->
 <header>
