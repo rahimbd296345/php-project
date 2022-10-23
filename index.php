@@ -2,13 +2,126 @@
       include("include/header.php");
 ?>
 
+
+
+
+
+
+
+
+
 <?php 
 
-define("cars", ["Alfa Rinei", "BMW", "Toyota"]);
-echo cars[1]
+define("GREETING", "Welcome to W3schools.com!");
+
+function myTest() {
+      echo GREETING;
+}
+
+myTest();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
