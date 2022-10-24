@@ -12,13 +12,10 @@
 
 <?php 
 
-define("GREETING", "Welcome to W3schools.com!");
+$x = 10;
+$y = 3;
 
-function myTest() {
-      echo GREETING;
-}
-
-myTest();
+echo $x ** $y;
 
 
 
