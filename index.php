@@ -2,21 +2,14 @@
       include("include/header.php");
 ?>
 
+<?php
 
 
+$x = 5;
+$y = 10;
 
-
-
-
-
-
-<?php 
-
-
-$x = 50;
-$y = 50;
-
-var_dump($x <= $y);
+echo ($x <=> $y);
+echo "<br>";
 
 
 
