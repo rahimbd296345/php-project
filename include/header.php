@@ -61,7 +61,7 @@
  <div class="container-fluid">
       <div class="row">
       <div class="col-lg-12 mb-5 mt-2">
-      <h1>welcome to shatotacorporation.com <span class="badge bg-secondary">Learning Php with W3schools.com</span></h1>
+      <h1>welcome to shatotacorporation.com <span class="badge bg-secondary">Learning Php with w3schools.com</span></h1>
       </div>
       </div>
  </div>
