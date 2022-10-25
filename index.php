@@ -3,13 +3,17 @@
 ?>
 
 <?php
-echo '<h1>PHP Increment / Decrement Operators</h1>';
+echo '<h1>PHP Logical Operators:</h1>';
 echo "<br>";
 
 
 
-$x = 10;
-echo $x--;
+$x = 100;
+$y = 50;
+
+if($x == 100 and $y == 50){
+      echo 'Hello world!';
+}
 
 
 
