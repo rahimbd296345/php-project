@@ -3,16 +3,17 @@
 ?>
 
 <?php
-echo '<h1>PHP Logical Operators:</h1>';
+echo '<h1>PHP String Operators:</h1>';
 echo "<br>";
 
 
 
-$x = 100;
+$txt1 = 'Hello';
+$txt2 = ' world!';
 
-if($x !== 90){
-      echo 'Hello world!';
-}
+$txt1 .= $txt2;
+
+echo $txt1;
 
 
 
