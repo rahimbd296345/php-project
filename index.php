@@ -3,11 +3,13 @@
 ?>
 
 <?php
+echo '<h1>PHP Increment / Decrement Operators</h1>';
+echo "<br>";
 
 
-$x = 100;
-$y = "100";
-var_dump($x === $y);
+
+$x = 10;
+echo $x--;
 
 
 

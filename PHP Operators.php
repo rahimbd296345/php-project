@@ -275,3 +275,51 @@ var_dump($x === $y); // returns false because types are not equal
 </body>
 </html>
 
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$x = 10;
+echo ++$x;
+?>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$x = 10;
+echo $x++;
+?>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$x = 10;
+echo --$x;
+?>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$x = 10;
+echo $x--;
+?>
+
+</body>
+</html>
+
