@@ -3,20 +3,23 @@
 ?>
 
 <?php
-echo '<h1>PHP String Operators:</h1>';
+echo '<h1>PHP Array Operators:</h1>';
 echo "<br>";
 
 
 
-$txt1 = 'Hello';
-$txt2 = ' world!';
+$x = array("a" => "red", "b" => "green");
+$y = array("c" => "blue", "d" => "yellow");
 
-$txt1 .= $txt2;
+//print_r($x + $y);
 
-echo $txt1;
+//var_dump($x == $y);
 
+//var_dump($x === $y);
 
+//var_dump($x != $y);
 
+var_dump($x !== $y);
 
 
 
