@@ -5,11 +5,12 @@
 <?php
 
 
-$x = 5;
-$y = 10;
+$x = 50000;
+$y = 100;
 
 echo ($x <=> $y);
 echo "<br>";
+echo 'Abdur Rahim';
 
 
 
