@@ -5,18 +5,16 @@
 <?php
 
 
-$x = 50000;
-$y = 100;
+
+
+
+
+
+
+$x = 15;
+$y = 10;
 
 echo ($x <=> $y);
-echo "<br>";
-echo 'Abdur Rahim';
-
-
-
-
-
-
 
 
 
