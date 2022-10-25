@@ -3,23 +3,26 @@
 ?>
 
 <?php
-echo '<h1>PHP Array Operators:</h1>';
+echo '<h1>Now Learning PHP Conditional Assignment Operators:</h1>';
 echo "<br>";
 
 
 
-$x = array("a" => "red", "b" => "green");
-$y = array("c" => "blue", "d" => "yellow");
+echo $status = (empty($user)) ? "anonymous" : "Logged in";
 
-//print_r($x + $y);
+echo ("<br>");
+$user = "Abdur Rahim";
 
-//var_dump($x == $y);
+echo $status = (empty($user)) ? "anonymous": "logged in";
 
-//var_dump($x === $y);
+echo ("<br>");
 
-//var_dump($x != $y);
 
-var_dump($x !== $y);
+
+echo $user = $_GET['user']?? 'anonymous';
+echo ('<br>');
+
+echo $color = $color ?? "red";
 
 
 
