@@ -3,8 +3,11 @@
 ?>
 
 <?php
-echo '<h1>PHP switch Statement:..</h1>';
+echo '<h1>The PHP while Loop:..</h1>';
 echo "<br>";
+
+
+
 
 
 
