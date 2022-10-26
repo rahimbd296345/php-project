@@ -31,3 +31,4 @@ while($x <= 100) {
 
 </body>
 </html>
+//PHP do while Loop
