@@ -31,4 +31,36 @@ while($x <= 100) {
 
 </body>
 </html>
+
 //PHP do while Loop
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$x = 1;
+
+do {
+    echo "The number is: $x <br>";
+    $x++;
+} while ($x <= 5);
+?>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$x = 6;
+
+do {
+    echo "The number is: $x <br>";
+    $x++;
+} while ($x <= 5);
+?>
+
+</body>
+</html>
