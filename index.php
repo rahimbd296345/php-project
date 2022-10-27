@@ -3,16 +3,21 @@
 ?>
 
 <?php
-echo '<h1>PHP do while Loop:..</h1>';
+echo '<h1>The PHP foreach Loop:..</h1>';
 echo "<br>";
 
 
 
 
 
-for ($x = 0; $x <= 100; $x+=10){
-      echo 'The number is: $x <br>';
+$age = array('Peter'=>'35', 'Ben'=>'37','Joe'=>'43');
+
+foreach ($age as $x => $val){
+      echo '$x = $val<br>';
 }
+
+
+
 
 
 

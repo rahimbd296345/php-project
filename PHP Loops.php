@@ -90,3 +90,33 @@ for ($x = 0; $x <= 100; $x+=10) {
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$colors = array("red", "green", "blue", "yellow");
+
+foreach ($colors as $value) {
+    echo "$value <br>";
+}
+?>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+
+foreach($age as $x => $val) {
+    echo "$x = $val<br>";
+}
+?>
+
+</body>
+</html>
